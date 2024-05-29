@@ -1,0 +1,42 @@
+{
+    "name": "Spook  V1",
+    "description": "Spook Bot v1",
+    "logo": "https://i.ibb.co/XLhSMwV/Modern-Dictionary-Language-Translation-Agency-Logo-20240529-000426-0000.png",
+    "keywords": [
+        "Google translater",
+        "Mongo DB"
+    ],
+    "repository": "https://github.com/lntechnical2/Google_Translater_V2",
+    "success_url": "https://telegram.dog/lntechnical",
+    "env": {
+        "API_ID": {
+            "description": "Your APP ID From my.telegram.org ",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash From my.telegram.org ",
+            "value": ""
+        },
+        "TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": ""
+        },
+        "ADMIN": {
+            "description":"Add Your User ID"
+        },
+        "DB_URL": {
+            "description": "Your Mongo DB URL Obtained From mongodb.com Watch This Video https://youtu.be/HhHzCfrqsoE",
+            "value": ""
+        },
+        "DB_NAME":{ 
+               "description":"Your Mongo DB Database Name ",
+                "value": "my",
+                "required": false
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
